@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xml Namespace "app" muss gesetzt sein! -->
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- always: zeigt es immer als icon an statt als Menueintrag -->
+    <!-- collapseActionView: man bekommt ein Up-Pfeil angezeigt und die ganze Actionbar wird genutzt -->
+    <item android:id="@+id/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Suche Aktion"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView" />
+</menu>
