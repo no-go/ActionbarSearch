@@ -4,6 +4,8 @@ This is a very simple Android example for the search function of the ActionBar.
 
 # Suche mit der Actionbar
 
+![App Screenshots](img/Screenshot.png)
+
 Ein simples Beispiel, wie man die Suche von der Actionbar `android.support.v7.widget.SearchView` nutzen kann.
 Außerdem ist es auch ein Beispiel, wie man mit einem BaseAdapter Daten und View miteinander zu einem
 View `layout/feed_line.xml` zusammenbauen kann.
